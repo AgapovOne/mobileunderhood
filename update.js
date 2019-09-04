@@ -34,7 +34,7 @@ function update(author) {
     saveAuthorArea(authorId, 'tweets', { tweets: concattedTweets });
   });
 
-  getInfo(tokens, underhood).then(info => {
+  getInfo(tokens, authorId).then(info => {
     saveAuthorArea(authorId, 'info', info);
   });
 
