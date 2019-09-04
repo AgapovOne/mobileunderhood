@@ -38,8 +38,8 @@ function update(author) {
     saveAuthorArea(authorId, 'info', info);
   });
 
-  rm(`./dump/images/${username}*`);
-  saveMedia(tokens, underhood, authorId, (err, media) => {
+  rm(`./dump/images/${authorId}*`);
+  saveMedia(tokens, username, authorId, (err, media) => {
     if (err) throw err;
     saveAuthorArea(authorId, 'media', media);
   });
