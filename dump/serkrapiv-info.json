@@ -1,11 +1,11 @@
 {
-  "id": 1056195982340358100,
-  "id_str": "1056195982340358150",
-  "name": "Мобильный разработчик",
-  "screen_name": "mobileunderhood",
-  "location": "Moscow, Russia",
+  "id": 99806075,
+  "id_str": "99806075",
+  "name": "Sergey Krapivenskiy",
+  "screen_name": "serkrapiv",
+  "location": "Moscow",
   "profile_location": null,
-  "description": "Коллективный твиттер мобильных разработчиков. Автор недели: Андрей Мишанин (@AndreyMishanin), SWE в FB, экс-Яндекс.",
+  "description": "Model 706-8073-4-21, Robot Sonic",
   "url": null,
   "entities": {
     "description": {
@@ -13,73 +13,103 @@
     }
   },
   "protected": false,
-  "followers_count": 1295,
-  "friends_count": 0,
-  "listed_count": 10,
-  "created_at": "Sat Oct 27 14:48:40 +0000 2018",
-  "favourites_count": 338,
+  "followers_count": 479,
+  "friends_count": 126,
+  "listed_count": 18,
+  "created_at": "Sun Dec 27 23:22:20 +0000 2009",
+  "favourites_count": 106,
   "utc_offset": null,
   "time_zone": null,
-  "geo_enabled": false,
+  "geo_enabled": true,
   "verified": false,
-  "statuses_count": 2511,
-  "lang": "en",
+  "statuses_count": 6608,
+  "lang": null,
   "status": {
-    "created_at": "Sun Feb 03 20:54:36 +0000 2019",
-    "id": 1092164474495295500,
-    "id_str": "1092164474495295488",
-    "text": "Мой план на неделю:\n\nПн. — Общая философия (на самом деле, плохо завуалированные набросы)\nВт. — Общая философия, ча… https://t.co/Y0zhKTN9pJ",
-    "truncated": true,
+    "created_at": "Tue Aug 13 10:23:32 +0000 2019",
+    "id": 1161221742091735000,
+    "id_str": "1161221742091735042",
+    "text": "@igrekde @mobileunderhood @KathrinPetrova @ZiminAlex Ну то есть рубился бы в Red Dead Redemption 2",
+    "truncated": false,
     "entities": {
       "hashtags": [],
       "symbols": [],
-      "user_mentions": [],
-      "urls": [
+      "user_mentions": [
         {
-          "url": "https://t.co/Y0zhKTN9pJ",
-          "expanded_url": "https://twitter.com/i/web/status/1092164474495295488",
-          "display_url": "twitter.com/i/web/status/1…",
+          "screen_name": "igrekde",
+          "name": "Egor Tolstoy",
+          "id": 181697598,
+          "id_str": "181697598",
           "indices": [
-            117,
-            140
+            0,
+            8
+          ]
+        },
+        {
+          "screen_name": "mobileunderhood",
+          "name": "Мобильный разработчик",
+          "id": 1056195982340358100,
+          "id_str": "1056195982340358150",
+          "indices": [
+            9,
+            25
+          ]
+        },
+        {
+          "screen_name": "KathrinPetrova",
+          "name": "Екатерина Петрова",
+          "id": 384935401,
+          "id_str": "384935401",
+          "indices": [
+            26,
+            41
+          ]
+        },
+        {
+          "screen_name": "ZiminAlex",
+          "name": "Alexander Zimin",
+          "id": 241640832,
+          "id_str": "241640832",
+          "indices": [
+            42,
+            52
           ]
         }
-      ]
+      ],
+      "urls": []
     },
-    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-    "in_reply_to_status_id": 1092164094017396700,
-    "in_reply_to_status_id_str": "1092164094017396737",
-    "in_reply_to_user_id": 1056195982340358100,
-    "in_reply_to_user_id_str": "1056195982340358150",
-    "in_reply_to_screen_name": "mobileunderhood",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": 1161192101910057000,
+    "in_reply_to_status_id_str": "1161192101910056961",
+    "in_reply_to_user_id": 181697598,
+    "in_reply_to_user_id_str": "181697598",
+    "in_reply_to_screen_name": "igrekde",
     "geo": null,
     "coordinates": null,
     "place": null,
     "contributors": null,
     "is_quote_status": false,
     "retweet_count": 0,
-    "favorite_count": 4,
+    "favorite_count": 0,
     "favorited": false,
     "retweeted": false,
-    "lang": "ru"
+    "lang": "und"
   },
   "contributors_enabled": false,
   "is_translator": false,
   "is_translation_enabled": false,
-  "profile_background_color": "000000",
+  "profile_background_color": "C0DEED",
   "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
   "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
   "profile_background_tile": false,
-  "profile_image_url": "http://pbs.twimg.com/profile_images/1092159059254566918/Q5w_dE-l_normal.jpg",
-  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1092159059254566918/Q5w_dE-l_normal.jpg",
-  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1056195982340358150/1548047621",
-  "profile_link_color": "1B95E0",
-  "profile_sidebar_border_color": "000000",
-  "profile_sidebar_fill_color": "000000",
-  "profile_text_color": "000000",
-  "profile_use_background_image": false,
-  "has_extended_profile": true,
-  "default_profile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/714822495623376896/JqL7-r9P_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/714822495623376896/JqL7-r9P_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
   "default_profile_image": false,
   "following": false,
   "follow_request_sent": false,

@@ -97,6 +97,295 @@
       "favorited": false,
       "retweeted": false,
       "lang": "en"
+    },
+    {
+      "created_at": "Fri Apr 26 02:58:52 +0000 2019",
+      "id": 1121609559070605300,
+      "id_str": "1121609559070605317",
+      "text": "@leahjs Thanks for the❤️. When #ThePleasureIsMine docuseries drops on 4/30, you’ll be the first to know 🙋🏽‍♀️🙋🏻‍♀️… https://t.co/O2LHlQeLQN",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "ThePleasureIsMine",
+            "indices": [
+              31,
+              49
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "leahjs",
+            "name": "Leah Suter",
+            "id": 137897485,
+            "id_str": "137897485",
+            "indices": [
+              0,
+              7
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/O2LHlQeLQN",
+            "expanded_url": "https://twitter.com/i/web/status/1121609559070605317",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              116,
+              139
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://www.qwvr.co\" rel=\"nofollow\">Arrow.</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": 137897485,
+      "in_reply_to_user_id_str": "137897485",
+      "in_reply_to_screen_name": "leahjs",
+      "user": {
+        "id": 1016702784161361900,
+        "id_str": "1016702784161361920"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "scopes": {
+        "followers": false
+      },
+      "lang": "en"
+    },
+    {
+      "created_at": "Tue Apr 30 13:52:58 +0000 2019",
+      "id": 1123223723782430700,
+      "id_str": "1123223723782430721",
+      "text": "@leahjs Get ready to #GetWhatYouWant. The Pleasure Is Mine K-Y docuseries is officially LIVE on YouTube. Watch NOW… https://t.co/6hZC42gTkC",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "GetWhatYouWant",
+            "indices": [
+              21,
+              36
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "leahjs",
+            "name": "Leah Suter",
+            "id": 137897485,
+            "id_str": "137897485",
+            "indices": [
+              0,
+              7
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/6hZC42gTkC",
+            "expanded_url": "https://twitter.com/i/web/status/1123223723782430721",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              116,
+              139
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://www.qwvr.co\" rel=\"nofollow\">Arrow.</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": 137897485,
+      "in_reply_to_user_id_str": "137897485",
+      "in_reply_to_screen_name": "leahjs",
+      "user": {
+        "id": 1016702784161361900,
+        "id_str": "1016702784161361920"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "scopes": {
+        "followers": false
+      },
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun May 12 10:19:36 +0000 2019",
+      "id": 1127518679288225800,
+      "id_str": "1127518679288225794",
+      "text": "@leahjs thanks for the ❤️! MA can’t wait to party with you. Just make sure you follow her rules. #MAmovie\nReply… https://t.co/1MeGqkyiJv",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "MAmovie",
+            "indices": [
+              97,
+              105
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "leahjs",
+            "name": "Leah Suter",
+            "id": 137897485,
+            "id_str": "137897485",
+            "indices": [
+              0,
+              7
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/1MeGqkyiJv",
+            "expanded_url": "https://twitter.com/i/web/status/1127518679288225794",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              113,
+              136
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://www.qwvr.co\" rel=\"nofollow\">Arrow.</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": 137897485,
+      "in_reply_to_user_id_str": "137897485",
+      "in_reply_to_screen_name": "leahjs",
+      "user": {
+        "id": 1027317706767315000,
+        "id_str": "1027317706767314945"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "scopes": {
+        "followers": false
+      },
+      "lang": "en"
+    },
+    {
+      "created_at": "Mon May 13 01:21:56 +0000 2019",
+      "id": 1127745762409046000,
+      "id_str": "1127745762409046016",
+      "text": "@leahjs You've been unsubscribed",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "leahjs",
+            "name": "Leah Suter",
+            "id": 137897485,
+            "id_str": "137897485",
+            "indices": [
+              0,
+              7
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "source": "<a href=\"https://www.qwvr.co\" rel=\"nofollow\">Arrow.</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": 137897485,
+      "in_reply_to_user_id_str": "137897485",
+      "in_reply_to_screen_name": "leahjs",
+      "user": {
+        "id": 1027317706767315000,
+        "id_str": "1027317706767314945"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "scopes": {
+        "followers": false
+      },
+      "lang": "en"
+    },
+    {
+      "created_at": "Tue May 28 19:53:56 +0000 2019",
+      "id": 1133461424691384300,
+      "id_str": "1133461424691384320",
+      "text": "@leahjs Thank you!",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "leahjs",
+            "name": "Leah Suter",
+            "id": 137897485,
+            "id_str": "137897485",
+            "indices": [
+              0,
+              7
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": 1133458956565844000,
+      "in_reply_to_status_id_str": "1133458956565843968",
+      "in_reply_to_user_id": 137897485,
+      "in_reply_to_user_id_str": "137897485",
+      "in_reply_to_screen_name": "leahjs",
+      "user": {
+        "id": 37868134,
+        "id_str": "37868134"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
     }
   ]
 }
