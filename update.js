@@ -44,10 +44,6 @@ function update(author) {
     saveAuthorArea(authorId, 'media', media);
   });
 
-  getFollowers(tokens, underhood).then(followersWithStatuses => {
-    const followers = map(dissoc('status'), followersWithStatuses);
-    saveAuthorArea(authorId, 'followers', { followers });
-  });
 
   const mentionsSinceId = isEmpty(mentions) ? first : last(mentions).id_str;
   twitterMentions(tokens, mentionsSinceId).then(newMentionsRaw => {

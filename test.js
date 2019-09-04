@@ -12,27 +12,6 @@ const latestInfo = head(authors).info;
 const numbers = input => typeNumbers(input, { locale: 'ru' });
 const make$ = file => cheerio.load(readFileSync(file, { encoding: 'utf8' }));
 
-import getGainedFollowers from './helpers/get-gained-followers';
-import getDiffFollowers from './helpers/get-diff-followers';
-
-describe('js', () => {
-  it('getGainedFollowers ordinary', () => {
-    assert.equal(getGainedFollowers('rstacruz'), 17);
-  });
-  it('getGainedFollowers first one', () => {
-    assert.equal(getGainedFollowers('shuvalov_anton'), 115);
-  });
-  it('getDiffFollowers normal', () => {
-    assert.deepEqual(getDiffFollowers('rstacruz'), { gain: 29, loss: 12 });
-    assert.deepEqual(getDiffFollowers('touzoku'), { gain: 88, loss: 15 });
-    assert.deepEqual(getDiffFollowers('milk_is_my_life'), { gain: 60, loss: 28 });
-  });
-  it('getDiffFollowers obsolete', () => {
-    assert.equal(getDiffFollowers('ihorzenich'), undefined);
-    assert.equal(getDiffFollowers('oleg008'), undefined);
-  });
-});
-
 describe('html', () => {
   describe('index page', () => {
     it('short authors info', () => {
@@ -49,14 +28,6 @@ describe('html', () => {
       const $ = make$('dist/index.html');
       const followers = numbers(String(latestInfo.followers_count));
       assert($('.page-header p i').text().indexOf(followers) > 0);
-    });
-  });
-
-  describe('stats page', () => {
-    it('stats rows', () => {
-      const $ = make$('dist/stats/index.html');
-      const rows = $('.host-stats__row:not(.host-stats__row_head)');
-      assert(rows.length === authors.length);
     });
   });
 

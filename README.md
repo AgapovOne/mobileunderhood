@@ -16,7 +16,6 @@
 ## Проект
 
 * `authors.js` — список авторов
-* `stats.js` — генерация статистики
 * `test.js` — тесты
 * `gulpfile.babel.js` — сборка сайта
 * `webpack.config.babel.js` — конфиг для js-bundling

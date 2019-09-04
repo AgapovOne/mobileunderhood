@@ -24,7 +24,6 @@ import jimp from 'gulp-jimp';
 import postcss from 'gulp-postcss';
 
 import articleData from 'article-data';
-import getStats from './stats.js';
 import underhood from './.underhoodrc.json';
 import webpackConfig from './webpack.config.babel.js';
 
@@ -76,23 +75,6 @@ task('index', ['css'], () => {
     .pipe(rename({ basename: 'index' }))
     .pipe(dest('dist'));
 });
-
-task('stats', ['css'], () =>
-  src('layouts/stats.jade')
-    .pipe(jade({
-      locals: {
-        title: `Статистика @${underhood.underhood}`,
-        url: 'stats/',
-        desc: underhood.underhoodDesc,
-        lastUpdated,
-        underhood,
-        stats: getStats(authors),
-        helpers: { bust },
-      },
-    }))
-    .pipe(rename({ dirname: 'stats' }))
-    .pipe(rename({ basename: 'index' }))
-    .pipe(dest('dist')));
 
 task('md-pages', ['css'], done => {
   each([
@@ -206,8 +188,8 @@ task('server', () => {
  */
 task('clean', done => rimraf('dist', done));
 
-task('html', ['stats', 'authors', 'index', 'rss', 'md-pages']);
-task('build', done => sequence( 'html', 'css', 'js', 'stats', 'static', 'userpics', 'current-media', done));
+task('html', ['authors', 'index', 'rss', 'md-pages']);
+task('build', done => sequence( 'html', 'css', 'js', 'static', 'userpics', 'current-media', done));
 
 task('default', done => sequence('clean', 'watch', done));
 
