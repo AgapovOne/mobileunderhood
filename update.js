@@ -12,7 +12,6 @@ import tokens from 'twitter-tokens';
 import getTweets from 'get-tweets';
 import getInfo from 'get-twitter-info';
 import saveMedia from './helpers/save-media';
-import getFollowers from 'get-twitter-followers';
 import twitterMentions from 'twitter-mentions';
 
 import ensureFilesForFirstUpdate from './helpers/ensure-author-files';
