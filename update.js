@@ -9,7 +9,7 @@ import { underhood } from './.underhoodrc.json';
 import authors from './authors';
 
 import tokens from 'twitter-tokens';
-import getTweets from 'get-tweets';
+import getTweets from './helpers/get-tweets';
 import getInfo from 'get-twitter-info';
 import saveMedia from './helpers/save-media';
 import twitterMentions from 'twitter-mentions';
@@ -18,20 +18,24 @@ import ensureFilesForFirstUpdate from './helpers/ensure-author-files';
 import getAuthorArea from './helpers/get-author-area';
 import saveAuthorArea from './helpers/save-author-area';
 
-function update(author) {
+function update(author, nextAuthorIfAvailable) {
   const { authorId, first, username } = author;
+
+  const { first: firstOfNextAuthor } = nextAuthorIfAvailable || { first: null };
 
   ensureFilesForFirstUpdate(authorId);
 
-  const tweets = getAuthorArea(authorId, 'tweets').tweets || [];
+  // const tweets = getAuthorArea(authorId, 'tweets').tweets || [];
   const mentions = getAuthorArea(authorId, 'mentions').mentions || [];
 
-  const tweetsSinceId = isEmpty(tweets) ? dec(first) : last(tweets).id_str;
-  getTweets(tokens, underhood, tweetsSinceId, (err, newTweetsRaw) => {
-    if (err) throw err;
-    const concattedTweets = concat(tweets, reverse(newTweetsRaw));
-    saveAuthorArea(authorId, 'tweets', { tweets: concattedTweets });
-  });
+  const tweetsSinceId = dec(first);
+  const tweetsBeforeId = firstOfNextAuthor && dec(firstOfNextAuthor);
+  getTweets(tokens, underhood, tweetsSinceId, tweetsBeforeId).then((newTweetsRaw) => {
+    log('get tweets finish', newTweetsRaw.length);
+    // const concattedTweets = concat(tweets, reverse(newTweetsRaw));
+    // saveAuthorArea(authorId, 'tweets', { tweets: concattedTweets });
+    saveAuthorArea(authorId, 'tweets', { tweets: reverse(newTweetsRaw) });
+  }).catch(err => { throw err; });
 
   getInfo(tokens, authorId).then(info => {
     saveAuthorArea(authorId, 'info', info);
@@ -60,8 +64,9 @@ function sleep(ms) {
 }
 
 (async () => {
-  for (const author of authors) {
-    update(author);
+  const reversedAuthors = reverse(authors);
+  for (let i = 0; i < reversedAuthors.length; i++) {
+    update(reversedAuthors[i], reversedAuthors[i + 1] || null);
     await sleep(10000);
   }
 })();
